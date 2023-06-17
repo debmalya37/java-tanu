@@ -42,8 +42,8 @@ class Person {
         }
     }
 }
-
-public class Abcd {
+// changed name from abcd to Setget
+public class Setget {
     public static void main(String[] args) {
         Practice prac1 = new Practice("deb", 17);
 
