@@ -42,6 +42,7 @@ class Person {
         }
     }
 }
+
 // changed name from abcd to Setget
 public class Setget {
     public static void main(String[] args) {

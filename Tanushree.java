@@ -1,13 +1,12 @@
 
 // // // default constructor
-// // class program {
-// //     int age;
-// //     String name;
+class program {
+    int age;
+    String name;
 
-// //     void show() {
-// //         System.out.println("age & name: " + age + " " + name);
-// //     }
-// // }
+    void show() {
+        System.out.println("age & name: " + age + " " + name);
+    } }
 
 // // class abc {
 // //     public static void main(String[] args) {
