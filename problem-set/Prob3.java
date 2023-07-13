@@ -24,17 +24,14 @@
 
 // Write a main method to create an object of the class and call the above member methods.
 
-
 import java.util.Scanner;
 
-class ElectricBill 
-{
-   String n;
-   int units;
-   double bill;
+class ElectricBill {
+  String n;
+  int units;
+  double bill;
 
-  public void accept() 
-  {
+  public void accept() {
     Scanner sc = new Scanner(System.in);
     System.out.print("Please Enter name: ");
     n = sc.next();
@@ -42,18 +39,12 @@ class ElectricBill
     units = sc.nextInt();
   }
 
-  public void calculate() 
-  {
-    if (units <= 100) 
-    {
+  public void calculate() {
+    if (units <= 100) {
       bill = units * 2;
-    } 
-    else if (units > 100 && units <= 300) 
-    {
+    } else if (units > 100 && units <= 300) {
       bill = 100 * 2 + (units - 100) * 3;
-    }
-    else 
-    {
+    } else {
       bill = 100 * 2 + 200 * 3 + (units - 300) * 5;
       double surcharge = bill * 2.5 / 100;
       bill = bill + surcharge;
