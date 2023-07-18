@@ -26,6 +26,6 @@ public class Factorial {
     // Calculate S
     int S = factorialN / (factorialM * factorialNM);
 
-    System.out.println("S = " + S);
+    System.out.println(factorialN + " " + factorialM + " "  factorialNM + " " + "S = " + S);
   }
 }
